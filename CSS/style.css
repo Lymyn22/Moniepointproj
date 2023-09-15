@@ -6,6 +6,9 @@
     justify-content: space-around;
 }
 
+div > video{
+    opacity: 1;
+}
 #firstnav{
     display: flex;
     gap: 50px;
