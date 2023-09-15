@@ -1,0 +1,218 @@
+#parent{
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#firstnav{
+    display: flex;
+    gap: 50px;
+    padding-right: 10px;
+}
+
+#navigation{
+    display: flex;
+}
+
+
+#secondnav{
+    display: flex;
+    gap: 50px;
+    padding-left: 270px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.backvideo{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/89) {
+    .backvideo{
+        width: 100;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/89) {
+    .backvideo{
+        width: auto;
+        height: 100;
+    }
+}
+
+.nav{
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+#navigation2{
+    background-color: white;
+    border: 20px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#navigation3 {
+    padding-top: 15px;
+    gap: 50px;
+
+}
+
+#container{
+   margin-top: 100px;
+   padding-left: 100px;
+   line-height: 66px;
+}
+
+.body1{
+    background-color: white;
+    border: 9px solid white;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 75px;
+}
+
+.mnp1{
+    padding-right: 150px;
+}
+
+.mnp2  {
+    color: rgb(99, 98, 98);
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.edit{
+    font-size: 16px;
+    color: blue;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.edit2{
+    padding-left: 10px;
+}
+
+.imageedit{
+    margin-bottom: 5px;
+}
+
+.button{
+    /* border: 100px; */
+    border: 0px;
+    color: rgb(6, 150, 207);
+    border-radius: 10px;
+    /* border-color: aliceblue; */
+    width: 90px;
+    height: 40px;
+}
+
+div h1{
+    font-size: 50px;
+    color: white;
+    max-width: 656px;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.para{
+    margin-top: -5px;
+    color: white;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: sans-serif;
+    max-width: 476px;
+    font-weight: 400px;
+    margin-bottom: 24px;
+}
+
+.Thirdvw{
+    background-color: aliceblue;
+    align-items: center;
+    height: 550px;
+}
+
+#button{
+    margin-bottom: 80px;
+}
+
+.backgroundvid{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 100%;
+    max-width: 1440px;
+    padding: 113px 149px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: end;
+    z-index: 2;
+    position: relative;
+    color: black;
+}
+
+div h2{
+    text-align: center;
+    padding-top: 30px;
+    line-height: 47px;
+    margin: 0px 34px 64px;
+    max-width: 666px;
+    font-size: 40px;
+    margin-left: 320px;
+    margin-bottom: 30px;
+}
+
+.pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bus{
+padding-top: 15px;
+margin-left: 20px;
+font-size: 24px;
+}
+
+.point{
+    padding-top: 15px;
+/* margin-left: 20px; */
+font-size: 24px;
+list-style: 30px;
+text-align: center;
+/* margin-top: 16px; */
+/* letter-spacing: 0em; */
+}
+
+.expense{
+    padding-top: 15px;
+margin-left: 40px;
+font-size: 24px;
+}
+
+.working{
+    padding-top: 15px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    max-width: 666px;
+    text-align: center;
+}
+
+
+  
