@@ -8,7 +8,14 @@
 
 div > video{
     opacity: 1;
+    color: black;
+    background-color: black;
 }
+
+.myvideo{
+    background-color: black;
+}
+
 #firstnav{
     display: flex;
     gap: 50px;
@@ -63,6 +70,7 @@ div > video{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: flex;
 
 }
 
@@ -217,5 +225,58 @@ font-size: 24px;
     text-align: center;
 }
 
+.viewport{
+    min-width: 100%;
+}
 
-  
+#aliceback{
+    background-color: aliceblue;
+}
+
+.aliceback{
+    padding-top: 250px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 44px;
+    max-width: 657px;
+    margin-bottom: 32px;
+    margin: 0 auto;
+    
+    
+}
+
+.blueground{
+    background-color: rgb(9, 84, 150);
+    background-size: 50vw;
+}
+
+.padding{
+    margin-bottom: 70px;
+    gap: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.footer1{
+    /* margin-top: 80px; */
+}
+
+footer {
+    background-color: #0f0;
+    grid-column: 1/span 5;
+    border: 1px solid black;
+}
+
+.firstfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(9, 84, 150);
+}
+
+#firstfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
